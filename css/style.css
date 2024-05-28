@@ -53,6 +53,12 @@ header .logo {
     font-style: normal;
     color: #E0072D;
     text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header .logo:hover {
+    color: #b8233e;
 }
 
 header .links a {

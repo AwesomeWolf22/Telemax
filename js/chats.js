@@ -71,6 +71,9 @@ function response(text) {
             if(text === "sim") {
                 response = "Poderia escrever seu CEP novamente"
                 disponivel = null;
+            }else if(text === "não" || text === "nao"){
+                response = "Uma pena que decidiu não seguir com os serviços da TeleMax. Volte sempre, estaremos de braços abertos para atendê-lo"
+                end();
             }
         }else if(text === "não" || text === "nao") {
             response = "Uma pena que decidiu não seguir com os serviços da TeleMax. Volte sempre, estaremos de braços abertos para atendê-lo"
@@ -107,9 +110,4 @@ function response(text) {
     
 }
 
-//!! Coloclar resposta para não
-//!! Botão do "Eu quero" para ir pro chat
-//!! A cor da letra do "Eu quero é Branco"
-//!! Fluxo do chat está na documentação página 2
 //!! https://docs.google.com/document/d/1TMD-lZI2fhgOqnMgMX80wMlBkX94X9-AAd6QBCPwQeo/edit#heading=h.z6ne0og04bp5
-//!! link https://wa.me/27997257509
